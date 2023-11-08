@@ -11,7 +11,6 @@ function Items({foods}) {
   function add(){
     setCant(cant + 1)
   }
-  
 
   return (
     <div className="list">
