@@ -7,6 +7,7 @@
   border-radius: 0 0 20px 20px;
   background: linear-gradient(to bottom, var(--green-3), var(--green-2));
   box-shadow: var(--shadow);
+  z-index: 2;
 }
 .total--container{
   padding: 0 20px;

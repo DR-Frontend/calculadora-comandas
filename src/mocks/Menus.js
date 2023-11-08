@@ -1,6 +1,7 @@
 export const Menus = [
   {
     name: 'Tamales',
+    quantity: 0,
     price: 14,
   },
   {

@@ -1,7 +1,9 @@
 import '../Total/total.css'
 import Logo from '../../assets/TamalesNancy.svg'
+import { useState } from 'react'
 
 function Total() {
+  const [total, setTotal] = useState(0)
   return (
     <>
       <div className="total">
@@ -9,7 +11,7 @@ function Total() {
           <img src={Logo} alt="" />
           <div className="total--price">
             <h2>TOTAL:</h2>
-            <p>$ <span className="total--price-net">0000.00</span></p>
+            <p>$ <span className="total--price-net">{total}</span></p>
           </div>
         </div>
       </div>
